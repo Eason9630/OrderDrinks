@@ -7,7 +7,7 @@
 
 import UIKit
 
-public let apiKey = "key6uDxppJsZibEKSasffas"
+
 
 class MenuTableViewController: UITableViewController {
 
