@@ -17,6 +17,10 @@
 		E972AED129F4CE7E003AD3FF /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = E972AED029F4CE7E003AD3FF /* Menu.swift */; };
 		E972AED329F4D897003AD3FF /* OrderDrinksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E972AED229F4D897003AD3FF /* OrderDrinksViewController.swift */; };
 		E972AED729F5146C003AD3FF /* OrdersRecords.swift in Sources */ = {isa = PBXBuildFile; fileRef = E972AED629F5146C003AD3FF /* OrdersRecords.swift */; };
+		E972AED929F82713003AD3FF /* OrderTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E972AED829F82713003AD3FF /* OrderTableViewController.swift */; };
+		E972AEDB29F82832003AD3FF /* OrderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E972AEDA29F82832003AD3FF /* OrderTableViewCell.swift */; };
+		E972AEDD29F966F6003AD3FF /* UpdateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E972AEDC29F966F5003AD3FF /* UpdateViewController.swift */; };
+		E972AF0529FE50F2003AD3FF /* potocol + UpdateDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E972AF0429FE50F2003AD3FF /* potocol + UpdateDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +36,10 @@
 		E972AED029F4CE7E003AD3FF /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		E972AED229F4D897003AD3FF /* OrderDrinksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDrinksViewController.swift; sourceTree = "<group>"; };
 		E972AED629F5146C003AD3FF /* OrdersRecords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersRecords.swift; sourceTree = "<group>"; };
+		E972AED829F82713003AD3FF /* OrderTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTableViewController.swift; sourceTree = "<group>"; };
+		E972AEDA29F82832003AD3FF /* OrderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTableViewCell.swift; sourceTree = "<group>"; };
+		E972AEDC29F966F5003AD3FF /* UpdateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateViewController.swift; sourceTree = "<group>"; };
+		E972AF0429FE50F2003AD3FF /* potocol + UpdateDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "potocol + UpdateDelegate.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +75,10 @@
 				E972AEB829F4CE3A003AD3FF /* AppDelegate.swift */,
 				E972AEBA29F4CE3A003AD3FF /* SceneDelegate.swift */,
 				E972AEBE29F4CE3A003AD3FF /* Main.storyboard */,
+				E972AEDC29F966F5003AD3FF /* UpdateViewController.swift */,
+				E972AEDA29F82832003AD3FF /* OrderTableViewCell.swift */,
+				E972AED829F82713003AD3FF /* OrderTableViewController.swift */,
+				E972AF0429FE50F2003AD3FF /* potocol + UpdateDelegate.swift */,
 				E972AECC29F4CE5F003AD3FF /* MenuTableViewCell.swift */,
 				E972AECE29F4CE70003AD3FF /* MenuTableViewController.swift */,
 				E972AED029F4CE7E003AD3FF /* Menu.swift */,
@@ -154,9 +166,13 @@
 				E972AED729F5146C003AD3FF /* OrdersRecords.swift in Sources */,
 				E972AEB929F4CE3A003AD3FF /* AppDelegate.swift in Sources */,
 				E972AEBB29F4CE3A003AD3FF /* SceneDelegate.swift in Sources */,
+				E972AED929F82713003AD3FF /* OrderTableViewController.swift in Sources */,
 				E972AECD29F4CE5F003AD3FF /* MenuTableViewCell.swift in Sources */,
+				E972AEDB29F82832003AD3FF /* OrderTableViewCell.swift in Sources */,
+				E972AF0529FE50F2003AD3FF /* potocol + UpdateDelegate.swift in Sources */,
 				E972AED329F4D897003AD3FF /* OrderDrinksViewController.swift in Sources */,
 				E972AED129F4CE7E003AD3FF /* Menu.swift in Sources */,
+				E972AEDD29F966F6003AD3FF /* UpdateViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -11,9 +11,8 @@ struct OrdersRecords: Codable {
     var records: [OrderRecords]
 }
 struct OrderRecords: Codable {
-    var id: String
-    var createdTime:String
-    var fields:[OrderItem]
+    var id:String?
+    var fields:OrderItem
 }
 struct OrderItem: Codable {
     var orderName: String
@@ -21,8 +20,8 @@ struct OrderItem: Codable {
     var suger: String
     var ice: String
     var count: String
-    var topping:[String]?
-    var descript:String
+    var topping:String
+    var price:String
 }
 enum Size:String ,CaseIterable {
     case medium = "中杯"
